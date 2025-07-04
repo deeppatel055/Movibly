@@ -5,11 +5,17 @@ A **clean, responsive movie discovery website** built using **React, TMDB API, a
 ## 🌟 Features
 
 ✅ Browse trending, popular, top-rated, and upcoming movies  
+
 ✅ View detailed movie information (overview, ratings, genres, runtime)  
+
 ✅ Cast section with actor images and names  
+
 ✅ Watch trailers directly (YouTube embed)  
+
 ✅ Search movies by name  
+
 ✅ Responsive design for mobile, tablet, and desktop  
+
 ✅ Smooth UI with Tailwind CSS
 
 ## 🚀 Live Demo
@@ -19,9 +25,13 @@ A **clean, responsive movie discovery website** built using **React, TMDB API, a
 ## 🛠️ Tech Stack
 
 - **React** (functional components, hooks)
+
 - **React Router DOM** (for routing)
+
 - **Tailwind CSS** (for styling)
+
 - **TMDB API** (movie data and images)
+
 - **Vite** (build and dev server)
 
 ## 📦 Installation
