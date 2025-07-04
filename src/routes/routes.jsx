@@ -14,17 +14,23 @@ const withSuspense = (Component) => (
   </Suspense>
 );
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [
+        { path: '', element: withSuspense(Home) },
+        { path: ':explore', element: withSuspense(Explore) },
+        { path: ':explore/:id', element: withSuspense(DetailsPage) },
+        { path: 'search', element: withSuspense(SearchPage) },
+      ],
+    },
+  ],
   {
-    path: '/',
-    element: <App />,
-    children: [
-      { path: '', element: withSuspense(Home) },
-      { path: ':explore', element: withSuspense(Explore) },
-      { path: ':explore/:id', element: withSuspense(DetailsPage) },
-      { path: 'search', element: withSuspense(SearchPage) },
-    ],
-  },
-]);
+    basename: '/movibly', // ✅ add here
+  }
+);
+
 
 export default router;
