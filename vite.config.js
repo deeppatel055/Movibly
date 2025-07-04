@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/movibly/', // MUST match your repo name
+  base: '/moviebly/', // MUST match your repo name
   plugins: [
     react(),
     tailwindcss(),

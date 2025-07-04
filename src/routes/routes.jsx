@@ -28,7 +28,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: '/movibly', // ✅ add here
+    basename: '/moviebly', // ✅ add here
   }
 );
 
